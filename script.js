@@ -26,7 +26,7 @@ let score = 20;
 let highScore = 0;
 document.querySelector(".highscore").textContent = highScore;
 
-document.querySelector(".number").textContent = secretNumber;
+document.querySelector(".number").textContent = ?;
 
 document.querySelector(".check").addEventListener("click", function () {
   const guess = Number(document.querySelector(".guess").value);
